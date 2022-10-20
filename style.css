@@ -1,8 +1,9 @@
+
 .logo {
     width: 120px;
 }
 
-.nv-btn .dropdown-item {
+.nv-btn {
     border-radius: 14px;
 }
 
@@ -32,11 +33,13 @@
 }
 
 .home-section {
-    background-image: linear-gradient(to right, #233071, #233071);
+    background-image: linear-gradient(to right, #39468a, #233071);
 }
 
 .hero-img {
     width: 95%;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 .text-color {
@@ -48,6 +51,7 @@
     border-radius: 13px;
     color: #CF278D;
     background-color: #fff;
+    padding: 14px 20px;
 }
 
 .hero-btn1:hover {
@@ -61,6 +65,7 @@
     border: 1px solid #CF278D;
     border-radius: 13px;
     color: white;
+    padding: 14px 20px;
 }
 
 .hero-btn2:hover {
@@ -68,3 +73,6 @@
     border: 1px solid #6678FF;
     color: white;
 }
+
+/* hero section done */
+
