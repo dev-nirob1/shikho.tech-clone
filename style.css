@@ -62,7 +62,7 @@
 
 .hero-btn2 {
     background-color: #CF278D;
-    border: 1px solid #CF278D;
+    border: 2px solid #CF278D;
     border-radius: 13px;
     color: white;
     padding: 14px 20px;
@@ -70,9 +70,109 @@
 
 .hero-btn2:hover {
     background-color: #6678FF;
-    border: 1px solid #6678FF;
+    border: 2px solid #6678FF;
     color: white;
 }
 
 /* hero section done */
 
+iframe{
+    margin: 80px 0px 20px 0px;
+    border-radius: 20px;
+    transition: .5s;
+}
+iframe:hover{
+    transform: scale(1.05);
+}
+.about-btn{
+    background-color: #6678FF;
+    border-radius: 13px;
+    color: white;
+    padding: 14px 24px;
+}
+.about-btn:hover{
+    background-color: #CF278D;
+    border-radius: 13px;
+    color: white;
+    padding: 14px 24px;
+}
+.text-color1{
+    color: #354895;
+}
+.win-btn{
+    background-color: #2946d4;
+    border-radius: 13px;
+    color: white;
+    padding: 14px 24px;
+}
+
+
+.win-btn:hover{
+    background-color: #CF278D;
+    border-radius: 13px;
+    color: white;
+    padding: 14px 24px;
+}
+
+.card .card-body img{
+    border-radius: 20px;
+}
+.card{
+    transition: .3s;
+}
+.card:hover {
+    transform: translateY(-1em);
+}
+.i-12{
+    font-size: 75px;
+    color: #ED2697;
+}
+.redi{
+    border-radius: 20px;
+}
+.cd-color{
+    color: #343B6D;
+}
+.bg-color{
+    background-color: #F3F5F9;
+}
+
+.i-1{
+    color: #363E8A;
+    font-size: 75px;
+}
+
+.solution{
+    background-color: #F3F5F9;
+}
+.redis{
+    border-radius: 30px;
+}
+.btn-caro{
+    background: transparent;
+    padding: 15px 27px;
+    color: #6678FF;
+    border: 2px solid #2946d4;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-caro:hover{
+    background-color: #2946d4;
+    color: white;
+}
+.gp-btn{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 500px) {
+    .win-btn{
+        background-color: #2946d4;
+        border-radius: 9px;
+        color: white;
+        padding: 5px 7px;
+        font-size: 12px;
+        display: block;
+    }
+    
+}
